@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import NavBar from './Navbar';
+import NavBar from './NavBar';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import ContactPage from './ContactPage';
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage/>} />
           <Route path="/about" element={<AboutPage/>} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/contact" element={<ContactPage/>} />
         </Routes>
       </div>
     
